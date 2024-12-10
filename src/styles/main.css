@@ -42,6 +42,7 @@
  .container__left{
     width: 35%;
     min-width: 300px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -139,6 +140,10 @@
     border-radius: 8px;
  }
  
+.card{
+   transition: transform 0.2s;
+}
 
- /*commit teste*/
- /*segundo commit teste*/
+.card:hover{
+   transform: scale(1.2);
+}
